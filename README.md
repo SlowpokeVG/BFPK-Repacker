@@ -10,7 +10,9 @@ Might work for other Mercury Engine games, but was never tested.
   - if it's 0x03 - be sure to pack files back with "zip" parameter;
 * Edit files you want, you can remove the rest;
 * Use script like this
-  * If files in the original archive were packed: ```.\BFPK-Generator.exe <input folder> <name of the archive> zip```
-  * If not - omit 'zip' from the end of the line: ```.\BFPK-Generator.exe <input folder> <name of the archive>```
+  * If files in the original archive were packed: 
+    * ```.\BFPK-Generator.exe <input folder> <name of the archive> zip```
+  * If not - omit 'zip' from the end of the line: 
+    * ```.\BFPK-Generator.exe <input folder> <name of the archive>```
 
 * CV:LOS can load archives with higher number as well, replacing original files, but it always expects replacing files to be packed if original was.
